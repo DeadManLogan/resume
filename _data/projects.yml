@@ -17,8 +17,14 @@
 - layout: top-middle
   name: Super-Mario & Shooter
   link: github.com/DeadManLogan/Super-Mario
-  link: github.com/DeadManLogan/Shooter
+  link2: github.com/DeadManLogan/Shooter
   quote: >
     2018
   description: | # this will include new lines to allow paragraphs
     These projects were made during my second and third semester respectively, for two different university courses. For both I used <mark>Phaser</mark>, which is a HTML5 framework for game development.
+- layout: top-middle
+  name: Windbreaker
+  quote: >
+    December 2019
+  description: | # this will include new lines to allow paragraphs
+    This was an e-shop I created for a university project. It was created using Wordpress and was hosted on local server using XAMPP. It had more than 150 products, with options like to add to cart, favorite a product, and even make purchases with credit card and PayPal.
