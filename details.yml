@@ -1,54 +1,116 @@
----
-# Personal details
-name: Friedrich Nietzsche
-address:
-- Humboldtstraße 36
-- 99425 Weimar
-- Prussia
-phone: "+49 03643 545400"
-email: friedrich@thevoid.de
-# Insert URLs without http://
-urls:
-- wki.pe/friedrich_nietzsche
-- twitter.com/tinynietzsche
+# ---
+# # Personal details
+# name: Friedrich Nietzsche
+# address:
+# - Humboldtstraße 36
+# - 99425 Weimar
+# - Prussia
+# phone: "+49 03643 545400"
+# email: friedrich@thevoid.de
+# # Insert URLs without http://
+# urls:
+# - wki.pe/friedrich_nietzsche
+# - twitter.com/tinynietzsche
 
-# Sections
+# # Sections
 
-intro: "I know my fate. One day my name will be associated with the memory of something tremendous --- a crisis without equal on earth, the most profound collision of conscience, a decision that was conjured up against everything that had been believed, demanded, hallowed so far. I am no man, I am dynamite."
+# intro: "I know my fate. One day my name will be associated with the memory of something tremendous --- a crisis without equal on earth, the most profound collision of conscience, a decision that was conjured up against everything that had been believed, demanded, hallowed so far. I am no man, I am dynamite."
 
-skills:
-- Aesthetics, Ethics, Metaphysics, Nihilism
-- Psychology, Ontology, Poetry, Value theory
-- Voluntarism, Tragedy, Fact–value distinction
-- Anti-foundationalism, Philosophy of history
+# skills:
+# - Aesthetics, Ethics, Metaphysics, Nihilism
+# - Psychology, Ontology, Poetry, Value theory
+# - Voluntarism, Tragedy, Fact–value distinction
+# - Anti-foundationalism, Philosophy of history
 
-experience:
-- years: 1879--1889
-  employer: Freiberufler
-  job: Freier Philisoph
-  city: Sils-Maria
-- years: 1869–-1879
-  employer: Universität Basel
-  job: Professor für klassische Philologie
-  city: Basel
-- years: 1867--1868
-  employer: Preußischen Artillerie
-  job: Kanonier
-  city: Naumburg
+# experience:
+# - years: 1879--1889
+#   employer: Freiberufler
+#   job: Freier Philisoph
+#   city: Sils-Maria
+# - years: 1869–-1879
+#   employer: Universität Basel
+#   job: Professor für klassische Philologie
+#   city: Basel
+# - years: 1867--1868
+#   employer: Preußischen Artillerie
+#   job: Kanonier
+#   city: Naumburg
 
-education:
-- year: 1867
-  subject: Philology
-  institute: Leipzig Universität
-  city: Leipzig
-- year: 1864
-  subject: Abitur
-  institute: Schulpforta
-  city: Naumburg
+# education:
+# - year: 1867
+#   subject: Philology
+#   institute: Leipzig Universität
+#   city: Leipzig
+# - year: 1864
+#   subject: Abitur
+#   institute: Schulpforta
+#   city: Naumburg
 
-# Settings
-mainfont: Hoefler Text
-fontsize: 10pt
-lang: en-GB
-geometry: a4paper, left=35mm, right=35mm, top=51mm, bottom=17mm
----
+# # Settings
+# mainfont: Hoefler Text
+# fontsize: 10pt
+# lang: en-GB
+# geometry: a4paper, left=35mm, right=35mm, top=51mm, bottom=17mm
+# ---
+
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Personal info
+name: Dimosthenis Grigoroudis
+title: Undergraduate Student
+email: grigoroudisdimosthenis@gmail.com
+# website: www.github.com/sproogen/resume-theme
+
+# Social links
+# twitter_username:
+github_username:  DeadManLogan
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: chillwildlife
+linkedin_username: Dimosthenis Grigoroudis
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+
+# About Section
+# about_title: About Me
+# about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Undergraduate Student at Ionian University, department of Computer Science. Mostly experienced with Unity but always enthused about learning new technologies. In most of my projects I co-operated with my buddies.
+
+# I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+
+# Projects Section
+# projects_title: Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+more_content: | # this will include new lines to allow paragraphs
+  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+   - Rock climbing
+   - Gaming
+   - Knitting
+   - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
