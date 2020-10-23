@@ -16,7 +16,7 @@
     This project is a game, developed in three days for the Dream Arcade Archive game jam at itch.io. For the development of this project i used the <mark>Unity</mark> game engine and <mark>C#</mark> as programming language. For the creation of sprites I used <mark>Aseprite</mark> and <mark>Photoshop</mark>.
 - layout: top-middle
   name: Super-Mario & Shooter
-  link: github.com/DeadManLogan/Super-Mario , github.com/DeadManLogan/Shooter
+  link: github.com/DeadManLogan/Super-Mario   github.com/DeadManLogan/Shooter
   quote: >
     2018
   description: | # this will include new lines to allow paragraphs
